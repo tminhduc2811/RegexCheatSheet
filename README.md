@@ -20,7 +20,7 @@ Minimum 8 characters, at least one uppercase letter, one lowercase letter and on
 
 Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character
 ```
-^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
+^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$
 ```
 
 Minimum 8 and maximum 10 characters, at least one uppercase letter, one lowercase letter, one number and one special character
